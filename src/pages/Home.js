@@ -5,18 +5,21 @@ import WorkSamples from '../components/WorkSamples';
 import Contact from '../components/Contact';
 
 const Home = () => (
-  <>
-    <About />
-    <CurrentProject />
-    <WorkSamples />
-    <Contact />
-  
-    <div class="pl-4">
-      <a class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl" href="#">
-        Minimal Blog
-      </a>
+  <div class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <div class="container w-full md:max-w-3xl mx-auto pt-20">
+      <About />
+      <CurrentProject />
+      <WorkSamples />
+      <Contact />
+    
+      <div class="pl-4">
+      
+          Minimal Blog
+      
+      </div>
     </div>
-  </>
+    
+  </div>
 
 )
 
